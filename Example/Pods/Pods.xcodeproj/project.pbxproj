@@ -7,48 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099FC63D7B3CFE71FF331495E1A0D477 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D158539A300F2682734F4147C288B /* UIKit.framework */; };
-		14A4614C6E2A0D5CCF3D6C4BCC1A8B87 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		17C75BB6571D2D523DAD51DD36764D24 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		043C2B84CC7D49480F11E3F09843F8F7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		05A5029A7AEF453C7A77A51BA3BF4B16 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A5EB7CF652258BED2EE61C79762A9B /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2C2B9BF6BDFD6D95231C3011BC95CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D158539A300F2682734F4147C288B /* UIKit.framework */; };
+		10C7EECC8B329A150627C4B99EABFFDD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		1C10BA84D06AAB735EE3E39D8B7F07C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 90580209FB54982C3DDB23F90735A889 /* ReplaceMe.m */; };
 		1D9F06F2EBA3C6579D0D933B6C8E6355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
-		23248FB84ACF7B9392C8C72771E83F53 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		25493F56ED15CF9CDD572DEAF358661B /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		2B15E2AEAD715E1EE5CE29239A574724 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CC57A1DDC0CC05E9D97F16B338EB43D /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EAD1DE230AEA4DEDFCACA8550F4E56 /* Masonry-dummy.m */; };
+		23B340D96E48FC502223A5E86B340984 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27257513B9CA31E1B10725AA7FC588EE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		2AE0E95708BD95F478CEA96CE7E62874 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
+		2CB447A9F8E3429F53E38C183163F896 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D5C0108BCE157A19796105959800B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
-		30AAFBAC8C9F6A9B2713DF1AB1D9FD9C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		353529CA892D714CB09BB09F5E604E56 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A0E73D285E9BF202779DFBAF756C39 /* ESTVLiveSdk4Phone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEC021F2FDBD3B5B96375EFBD25AB28 /* ESTVLiveSdk4Phone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3956DEA56DEFC1089D0AC4F19EA94F81 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2536470639093F8D2AF163D856618A47 /* MapKit.framework */; };
-		3982D546ED7BFA6ADCF2C202CBC292F8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A5EB7CF652258BED2EE61C79762A9B /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E10A33B9DEAF5279D031F274130DBCA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4362AEC499442C5EF248A53BC9341F38 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33142CD88C1B74B1ECE176DF27333E4E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2A68EA7B37AFFB7C098D03F1C6215F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		3E1B7565E43F77887A9A50865F1CBE66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2536470639093F8D2AF163D856618A47 /* MapKit.framework */; };
+		3F13E027F2C3F40713EB54D6D5D22DDF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
 		493A836FCA742B8CFEB1D9CA4614D2CE /* Pods-ESTVLiveSdk4Phone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FB8BA468D7BC1FDC01CE3D4805187B /* Pods-ESTVLiveSdk4Phone_Tests-dummy.m */; };
-		54762F7209FA286F0EB0E12B72994E17 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E22E5FC3EEC65BADC2AC50331E214B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
-		6504E17F3530ED24BB48E5FB7DB9FC2C /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E9AFC762151FEC160B10A5BF7FE0483 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A9572E69C6E5E7B205DC3AAFCAA7616 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EC2E18586604387D4DB4248D61A6480 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8254FB785A07B1AD8B2FDDF2E2736447 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		85E9D58D2604EC86616AE533718A161E /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87F522F82FFF6B45C16CEF360B6127E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
-		8A7F7FC267068948906394580E50E331 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F4C5FCC861816F27D3DF3A1E04730F2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE5F836223402F3CBCE84D339AC21F6 /* ReplaceMe.m */; };
+		55E1809B396E476B0511140B547CE558 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5620EEEC28A6D6E68D44DFE8827A4E92 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EBF1B15E8579B5AA872745488A062C /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4EAA9201CC773F2EC1D168BF643AF5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		7AD85165BCF485C16A83401A736475A4 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D950BFA19EDE556175E31DBB2D41380 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AF9A5B3FE9665955602209422284D8 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EAD1DE230AEA4DEDFCACA8550F4E56 /* Masonry-dummy.m */; };
 		8FA8EB76D833AE166D1F828CDB46CF1E /* Pods-ESTVLiveSdk4Phone_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8C9E210166602524088AF089F834469 /* Pods-ESTVLiveSdk4Phone_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92B9F4557747098150DC1DF78CCDE0B4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C07A975301A5713FC254EE402F8D72A /* ESTVLiveSdk4Phone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B53E110A880CE3BB6D82188F911EC9 /* ESTVLiveSdk4Phone-dummy.m */; };
+		9249EA3819743E05FA015356F3EEBF8F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DD2889000ED114D368638465318B45 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF4DB56A3D52DF69D9EA64D262598B5 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6EAC9FD21F8CD179F33E53BD4F7C042 /* Pods-ESTVLiveSdk4Phone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C153917DD06CE1A6D2BDA45D87A67160 /* Pods-ESTVLiveSdk4Phone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B119BE820ECF9E551FD936CA749A217B /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */; };
-		C7566DB8260320C9D499453187E8427D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		D2E21E2CF6B0175957BFE4D44BE665A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D158539A300F2682734F4147C288B /* UIKit.framework */; };
+		AB2A70A796216AFCA0B10BA1D3714C07 /* ESTVLiveSdk4Phone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18179A41858EBCB46E47AB2A462B8F7F /* ESTVLiveSdk4Phone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB1F544BA0E4DA7EAC89DB6A38A9D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */; };
+		CED663E0BCA0BEADDBA3A77D476A2148 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */; };
+		D038FD9427F270B48DF7BD56F6A2FAF7 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		D2A10E2A46DA4500C5D667912816566A /* ESTVLiveSdkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23F42E0FF17590F33F51C80CF2A1C584 /* ESTVLiveSdkBundle.bundle */; };
+		D60FFBF09C6A9520665D4E105171439C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A876DD8D6716CF648B0AB189E090AA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D8835CE383DBD7D6C35D80784CCC4795 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8F0AFD292CE10D57ED83228550731B9 /* Pods-ESTVLiveSdk4Phone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDC32595FF22162BEB44CE8A63C1064 /* Pods-ESTVLiveSdk4Phone_Example-dummy.m */; };
-		DF765612896252190D84D36FB820D8BB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5DF265CC3BC55B447FF81477CEC3D16 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		E70E578C53D416DEC5F01A7826879DD5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		EBF4190E5A79A7B32462D69E2EF39E54 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2FD8AD68BE304DE1E49A11183D96037 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAB3A475CAD4BB5EAB1E2656F7A681F7 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		E8C7E31EAB2E5A34A4517FFCEC24BA71 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF8C2C97E23B235FD914250F5002B3F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		EB351670FFD4E9F4462A3CEAF40A8498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D158539A300F2682734F4147C288B /* UIKit.framework */; };
+		EDA66AB10A160E429A47D76901A85E9C /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52F175D8C1EFABF2070613E0D6E954B /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		FEDEEB0D954A2B01D5C2D7A6EE059C9A /* ESTVLiveSdk4Phone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7E75F824653292CBF185C942A4414F /* ESTVLiveSdk4Phone-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,35 +64,35 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B18E96389F40E0E56E72C1A9AF3173CF;
+			remoteGlobalIDString = 2FFC761B96C1458E3B117535AFAF1855;
 			remoteInfo = ESTVLiveSdk4Phone;
 		};
 		901459AAF930CA22178669E460BA3AA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C872DD99A69C557A7417CD7379EA61B7;
+			remoteGlobalIDString = BF5DE04A0EAB68DA5B8ADEE163C9BE15;
 			remoteInfo = Masonry;
 		};
-		C00257C2E60197AB94C99929C7FA1C44 /* PBXContainerItemProxy */ = {
+		BCF47C3289327FFDB8A1A35ED7FE6C39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C872DD99A69C557A7417CD7379EA61B7;
+			remoteGlobalIDString = BF5DE04A0EAB68DA5B8ADEE163C9BE15;
 			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		10F8024A2D90755C0828D4F78A88153D /* ESTVLiveSdk4Phone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESTVLiveSdk4Phone.xcconfig; sourceTree = "<group>"; };
 		1774A58BFF8D3C65578CD6E40286FD7C /* ESTVLiveSdk4Phone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESTVLiveSdk4Phone.framework; path = ESTVLiveSdk4Phone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18179A41858EBCB46E47AB2A462B8F7F /* ESTVLiveSdk4Phone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTVLiveSdk4Phone-umbrella.h"; sourceTree = "<group>"; };
 		1A21EE7BC359FE1A791B254C75F7BD98 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		1D120D7258D8E60C9E181356C6F5C334 /* Pods-ESTVLiveSdk4Phone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESTVLiveSdk4Phone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		225C4F19F0D6AF751BF64FAA77B48CDE /* Pods-ESTVLiveSdk4Phone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESTVLiveSdk4Phone_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		23F42E0FF17590F33F51C80CF2A1C584 /* ESTVLiveSdkBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ESTVLiveSdkBundle.bundle; path = ESTVLiveSdk4Phone/Resources/ESTVLiveSdkBundle.bundle; sourceTree = "<group>"; };
 		2536470639093F8D2AF163D856618A47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		2712D3767EE991D4FE66ED4DB969DF73 /* ESTVLiveSdk4Phone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESTVLiveSdk4Phone-Info.plist"; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		2FA1C5A593A969896F2F6859B30EC0A5 /* Pods-ESTVLiveSdk4Phone_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESTVLiveSdk4Phone_Example-frameworks.sh"; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
@@ -100,66 +101,67 @@
 		43256674D83B6E091940DA218CFE401F /* Pods-ESTVLiveSdk4Phone_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESTVLiveSdk4Phone_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5C47E63ECE5407B387DD5EFC04A34A9A /* ESTVLiveSdk4Phone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ESTVLiveSdk4Phone.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5DDC32595FF22162BEB44CE8A63C1064 /* Pods-ESTVLiveSdk4Phone_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESTVLiveSdk4Phone_Example-dummy.m"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		619663761F7F7D9011F5717724B2817C /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		64C30EE274EC0805A806D15EC72DEC38 /* ESTVLiveSdk4Phone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESTVLiveSdk4Phone.modulemap; sourceTree = "<group>"; };
+		64D0A5EC30A7D8626A8A5E98370DDF09 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		66A0C2F3D73F4FB3753501FE2A68E8CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		67FB8BA468D7BC1FDC01CE3D4805187B /* Pods-ESTVLiveSdk4Phone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESTVLiveSdk4Phone_Tests-dummy.m"; sourceTree = "<group>"; };
+		68512E812A2D2A142E1B0CAF8AC121BD /* ESTVLiveSdk4Phone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESTVLiveSdk4Phone.modulemap; sourceTree = "<group>"; };
 		6891DFDE83EECCE865733855E71440E8 /* Pods-ESTVLiveSdk4Phone_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESTVLiveSdk4Phone_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		7536703BCA1E18CA9B16029101276879 /* ESTVLiveSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTVLiveSdk.framework; path = ESTVLiveSdk4Phone/Frameworks/ESTVLiveSdk.framework; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		7AA260610C478B5E3700289963C6006D /* Pods-ESTVLiveSdk4Phone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESTVLiveSdk4Phone_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7B0B490BDCE5F414DEC2EEBB791AA95F /* ESTVLiveSdk4Phone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ESTVLiveSdk4Phone.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D3E436A0AE02F9701755192357A5F72 /* ESTVLiveSdk4Phone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESTVLiveSdk4Phone.xcconfig; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		8B48C546977428468C504BE967E174D1 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90580209FB54982C3DDB23F90735A889 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ESTVLiveSdk4Phone/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		9E87121532858C4FBAC77FC648EB0088 /* Pods-ESTVLiveSdk4Phone_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESTVLiveSdk4Phone_Tests-Info.plist"; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A03DAFC16012FC8D92CC2A18450E28F5 /* ESTVLiveSdk4Phone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTVLiveSdk4Phone-prefix.pch"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		A3AEB1979169D15BA921107DDBD7C543 /* Pods_ESTVLiveSdk4Phone_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESTVLiveSdk4Phone_Example.framework; path = "Pods-ESTVLiveSdk4Phone_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5B91ABD839BC5F89519D295126E9002 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A61BE30144F80B9445B5AE57AD30DFBC /* Pods_ESTVLiveSdk4Phone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESTVLiveSdk4Phone_Tests.framework; path = "Pods-ESTVLiveSdk4Phone_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8860BC178EC79243293B63F1FEAB694 /* ESTVLiveSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTVLiveSdk.framework; path = ESTVLiveSdk4Phone/Frameworks/ESTVLiveSdk.framework; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		ADE5F836223402F3CBCE84D339AC21F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ESTVLiveSdk4Phone/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		B1CB883D7656B50EA9B18BB1456B5E85 /* Pods-ESTVLiveSdk4Phone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESTVLiveSdk4Phone_Example.modulemap"; sourceTree = "<group>"; };
+		BC7E75F824653292CBF185C942A4414F /* ESTVLiveSdk4Phone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTVLiveSdk4Phone-dummy.m"; sourceTree = "<group>"; };
 		C153917DD06CE1A6D2BDA45D87A67160 /* Pods-ESTVLiveSdk4Phone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESTVLiveSdk4Phone_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C629A9D52016F223C10E38562C818EC4 /* ESTVLiveSdk4Phone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESTVLiveSdk4Phone-Info.plist"; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		C7E6DCB4EA481F15CDE96B1724AA9BB4 /* Pods-ESTVLiveSdk4Phone_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESTVLiveSdk4Phone_Example-Info.plist"; sourceTree = "<group>"; };
 		C8C9E210166602524088AF089F834469 /* Pods-ESTVLiveSdk4Phone_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESTVLiveSdk4Phone_Example-umbrella.h"; sourceTree = "<group>"; };
 		CD6345378AB79B01BA6EF1B1621E09F8 /* Pods-ESTVLiveSdk4Phone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESTVLiveSdk4Phone_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE380DE8967F991CF21E96F823DDE2C1 /* Pods-ESTVLiveSdk4Phone_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESTVLiveSdk4Phone_Tests.modulemap"; sourceTree = "<group>"; };
 		D6A5EB7CF652258BED2EE61C79762A9B /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		D72A95028E8F2889FA202369D864D689 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB00E8162409CA35AF7300B20440FD1C /* Pods-ESTVLiveSdk4Phone_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESTVLiveSdk4Phone_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEA94EB3F37F1C58DF1405404D05382C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E6B53E110A880CE3BB6D82188F911EC9 /* ESTVLiveSdk4Phone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESTVLiveSdk4Phone-dummy.m"; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		EDBA0416534636ABCDBD133A9C2C07C1 /* Pods-ESTVLiveSdk4Phone_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESTVLiveSdk4Phone_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F16BE983CF6FD2C60CA8DD76FE9F4C50 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2C6A8CC7F8EBDB708A03EA799090B4E /* ESTVLiveSdk4Phone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTVLiveSdk4Phone-prefix.pch"; sourceTree = "<group>"; };
 		F5EAD1DE230AEA4DEDFCACA8550F4E56 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		F6417ED2886AA5A7875F809EB9CC11FC /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FC7D158539A300F2682734F4147C288B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		FFEC021F2FDBD3B5B96375EFBD25AB28 /* ESTVLiveSdk4Phone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESTVLiveSdk4Phone-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32831A3445B133AFECF96196F4DCC3DB /* Frameworks */ = {
+		26BE64AC7F98A4AE146816D6BEAA763C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F522F82FFF6B45C16CEF360B6127E3 /* Foundation.framework in Frameworks */,
-				D2E21E2CF6B0175957BFE4D44BE665A1 /* UIKit.framework in Frameworks */,
+				2AE0E95708BD95F478CEA96CE7E62874 /* Foundation.framework in Frameworks */,
+				EB351670FFD4E9F4462A3CEAF40A8498 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,22 +173,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A59758D4056322C154FD62624F929462 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E22E5FC3EEC65BADC2AC50331E214B6 /* Foundation.framework in Frameworks */,
-				3956DEA56DEFC1089D0AC4F19EA94F81 /* MapKit.framework in Frameworks */,
-				B119BE820ECF9E551FD936CA749A217B /* Masonry.framework in Frameworks */,
-				099FC63D7B3CFE71FF331495E1A0D477 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B576087846580F6C288CDD44F1F2FC7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D9F06F2EBA3C6579D0D933B6C8E6355 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE88BFF6339E64C06E97871696E282E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB1F544BA0E4DA7EAC89DB6A38A9D17 /* Foundation.framework in Frameworks */,
+				3E1B7565E43F77887A9A50865F1CBE66 /* MapKit.framework in Frameworks */,
+				CED663E0BCA0BEADDBA3A77D476A2148 /* Masonry.framework in Frameworks */,
+				0B2C2B9BF6BDFD6D95231C3011BC95CE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,37 +211,21 @@
 			path = "Target Support Files/Pods-ESTVLiveSdk4Phone_Tests";
 			sourceTree = "<group>";
 		};
-		0AE767F71C408F2B9171CC2FE48B6060 /* Frameworks */ = {
+		700BDA4756C0DC2266F124636F0DD9D7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7536703BCA1E18CA9B16029101276879 /* ESTVLiveSdk.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1C0CA6523CC1961B3276A70F58E6D6C2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7B0B490BDCE5F414DEC2EEBB791AA95F /* ESTVLiveSdk4Phone.podspec */,
-				D72A95028E8F2889FA202369D864D689 /* LICENSE */,
-				A5B91ABD839BC5F89519D295126E9002 /* README.md */,
+				5C47E63ECE5407B387DD5EFC04A34A9A /* ESTVLiveSdk4Phone.podspec */,
+				64D0A5EC30A7D8626A8A5E98370DDF09 /* LICENSE */,
+				66A0C2F3D73F4FB3753501FE2A68E8CE /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		48178A6F9739952A9315BCC865866BDB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3580F073D942F60AB084A2C82D9EAE2 /* ESTVLiveSdk4Phone */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				48178A6F9739952A9315BCC865866BDB /* Development Pods */,
+				A820BD2A7BE85BC7AACD96A8317A7986 /* Development Pods */,
 				8423AF42BCF3A282D21D6C83C0D1863F /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				F6A8FA8F5E80F72E980DAB0506E77F7B /* Products */,
@@ -254,20 +240,6 @@
 				D29474727D5AB997716D48247893EC04 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		977CB5649CF7ECD6FA5EFA7F62C269CD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64C30EE274EC0805A806D15EC72DEC38 /* ESTVLiveSdk4Phone.modulemap */,
-				10F8024A2D90755C0828D4F78A88153D /* ESTVLiveSdk4Phone.xcconfig */,
-				E6B53E110A880CE3BB6D82188F911EC9 /* ESTVLiveSdk4Phone-dummy.m */,
-				2712D3767EE991D4FE66ED4DB969DF73 /* ESTVLiveSdk4Phone-Info.plist */,
-				F2C6A8CC7F8EBDB708A03EA799090B4E /* ESTVLiveSdk4Phone-prefix.pch */,
-				FFEC021F2FDBD3B5B96375EFBD25AB28 /* ESTVLiveSdk4Phone-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ESTVLiveSdk4Phone";
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -304,16 +276,39 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		B3580F073D942F60AB084A2C82D9EAE2 /* ESTVLiveSdk4Phone */ = {
+		A820BD2A7BE85BC7AACD96A8317A7986 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ADE5F836223402F3CBCE84D339AC21F6 /* ReplaceMe.m */,
-				0AE767F71C408F2B9171CC2FE48B6060 /* Frameworks */,
-				1C0CA6523CC1961B3276A70F58E6D6C2 /* Pod */,
-				977CB5649CF7ECD6FA5EFA7F62C269CD /* Support Files */,
+				AFDE5443335FF4DC4B540924989F1DBB /* ESTVLiveSdk4Phone */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFDE5443335FF4DC4B540924989F1DBB /* ESTVLiveSdk4Phone */ = {
+			isa = PBXGroup;
+			children = (
+				90580209FB54982C3DDB23F90735A889 /* ReplaceMe.m */,
+				F422DC4A1EEB1A0B3E89C87FD5F23C9E /* Frameworks */,
+				700BDA4756C0DC2266F124636F0DD9D7 /* Pod */,
+				CF5685677BA8B2FB9684DA74A4A16537 /* Resources */,
+				B1D8DDD7ECBB01024B20748205E4FD4A /* Support Files */,
 			);
 			name = ESTVLiveSdk4Phone;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B1D8DDD7ECBB01024B20748205E4FD4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68512E812A2D2A142E1B0CAF8AC121BD /* ESTVLiveSdk4Phone.modulemap */,
+				7D3E436A0AE02F9701755192357A5F72 /* ESTVLiveSdk4Phone.xcconfig */,
+				BC7E75F824653292CBF185C942A4414F /* ESTVLiveSdk4Phone-dummy.m */,
+				C629A9D52016F223C10E38562C818EC4 /* ESTVLiveSdk4Phone-Info.plist */,
+				A03DAFC16012FC8D92CC2A18450E28F5 /* ESTVLiveSdk4Phone-prefix.pch */,
+				18179A41858EBCB46E47AB2A462B8F7F /* ESTVLiveSdk4Phone-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ESTVLiveSdk4Phone";
 			sourceTree = "<group>";
 		};
 		CA33E1B5C8708E6CA7AD9EC9BE5ACDB2 /* Targets Support Files */ = {
@@ -323,6 +318,14 @@
 				013C42154FB60B4CC2AB98AF1E0E4101 /* Pods-ESTVLiveSdk4Phone_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF5685677BA8B2FB9684DA74A4A16537 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23F42E0FF17590F33F51C80CF2A1C584 /* ESTVLiveSdkBundle.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D29474727D5AB997716D48247893EC04 /* iOS */ = {
@@ -358,6 +361,14 @@
 				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F422DC4A1EEB1A0B3E89C87FD5F23C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8860BC178EC79243293B63F1FEAB694 /* ESTVLiveSdk.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F6A8FA8F5E80F72E980DAB0506E77F7B /* Products */ = {
@@ -396,6 +407,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		370980ED43D8F219BB7E70ED6DBEB0B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33142CD88C1B74B1ECE176DF27333E4E /* MASCompositeConstraint.h in Headers */,
+				D8835CE383DBD7D6C35D80784CCC4795 /* MASConstraint+Private.h in Headers */,
+				2CB447A9F8E3429F53E38C183163F896 /* MASConstraint.h in Headers */,
+				92DD2889000ED114D368638465318B45 /* MASConstraintMaker.h in Headers */,
+				7AD85165BCF485C16A83401A736475A4 /* MASLayoutConstraint.h in Headers */,
+				05A5029A7AEF453C7A77A51BA3BF4B16 /* Masonry-umbrella.h in Headers */,
+				7D950BFA19EDE556175E31DBB2D41380 /* Masonry.h in Headers */,
+				D60FFBF09C6A9520665D4E105171439C /* MASUtilities.h in Headers */,
+				23B340D96E48FC502223A5E86B340984 /* MASViewAttribute.h in Headers */,
+				66EBF1B15E8579B5AA872745488A062C /* MASViewConstraint.h in Headers */,
+				9249EA3819743E05FA015356F3EEBF8F /* NSArray+MASAdditions.h in Headers */,
+				EDA66AB10A160E429A47D76901A85E9C /* NSArray+MASShorthandAdditions.h in Headers */,
+				9BF4DB56A3D52DF69D9EA64D262598B5 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				E8C7E31EAB2E5A34A4517FFCEC24BA71 /* View+MASAdditions.h in Headers */,
+				5620EEEC28A6D6E68D44DFE8827A4E92 /* View+MASShorthandAdditions.h in Headers */,
+				55E1809B396E476B0511140B547CE558 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84A4A8BC21A57B484E6EA5B09F0C4701 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,40 +438,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB0FE9AFDF786090816B192CF35D400E /* Headers */ = {
+		DF0E6CA85C2E63A0DFC7E4C3EC9AB1D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A0E73D285E9BF202779DFBAF756C39 /* ESTVLiveSdk4Phone-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9CC79F862B970EAEB66CFC99DDB8B24 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6504E17F3530ED24BB48E5FB7DB9FC2C /* MASCompositeConstraint.h in Headers */,
-				54762F7209FA286F0EB0E12B72994E17 /* MASConstraint+Private.h in Headers */,
-				2B15E2AEAD715E1EE5CE29239A574724 /* MASConstraint.h in Headers */,
-				7EC2E18586604387D4DB4248D61A6480 /* MASConstraintMaker.h in Headers */,
-				8A7F7FC267068948906394580E50E331 /* MASLayoutConstraint.h in Headers */,
-				3982D546ED7BFA6ADCF2C202CBC292F8 /* Masonry-umbrella.h in Headers */,
-				92B9F4557747098150DC1DF78CCDE0B4 /* Masonry.h in Headers */,
-				6E9AFC762151FEC160B10A5BF7FE0483 /* MASUtilities.h in Headers */,
-				3E10A33B9DEAF5279D031F274130DBCA /* MASViewAttribute.h in Headers */,
-				F2FD8AD68BE304DE1E49A11183D96037 /* MASViewConstraint.h in Headers */,
-				353529CA892D714CB09BB09F5E604E56 /* NSArray+MASAdditions.h in Headers */,
-				4362AEC499442C5EF248A53BC9341F38 /* NSArray+MASShorthandAdditions.h in Headers */,
-				DF765612896252190D84D36FB820D8BB /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				EBF4190E5A79A7B32462D69E2EF39E54 /* View+MASAdditions.h in Headers */,
-				85E9D58D2604EC86616AE533718A161E /* View+MASShorthandAdditions.h in Headers */,
-				7A9572E69C6E5E7B205DC3AAFCAA7616 /* ViewController+MASAdditions.h in Headers */,
+				AB2A70A796216AFCA0B10BA1D3714C07 /* ESTVLiveSdk4Phone-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2FFC761B96C1458E3B117535AFAF1855 /* ESTVLiveSdk4Phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DB19E33FCE529F45CDECBED1857DAE /* Build configuration list for PBXNativeTarget "ESTVLiveSdk4Phone" */;
+			buildPhases = (
+				DF0E6CA85C2E63A0DFC7E4C3EC9AB1D1 /* Headers */,
+				2DE7E246AA4C48EBB3C8D55DC5E04DD1 /* Sources */,
+				FE88BFF6339E64C06E97871696E282E8 /* Frameworks */,
+				6E4D14FE0BDC795A1637735AF9746C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA9021FE64BB229F23BB9FC324629D5 /* PBXTargetDependency */,
+			);
+			name = ESTVLiveSdk4Phone;
+			productName = ESTVLiveSdk4Phone;
+			productReference = 1774A58BFF8D3C65578CD6E40286FD7C /* ESTVLiveSdk4Phone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		9F66D621CA216B398CD46FF54226AD64 /* Pods-ESTVLiveSdk4Phone_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93373913914432B312D3D50863E849DC /* Build configuration list for PBXNativeTarget "Pods-ESTVLiveSdk4Phone_Example" */;
@@ -458,33 +488,14 @@
 			productReference = A3AEB1979169D15BA921107DDBD7C543 /* Pods_ESTVLiveSdk4Phone_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B18E96389F40E0E56E72C1A9AF3173CF /* ESTVLiveSdk4Phone */ = {
+		BF5DE04A0EAB68DA5B8ADEE163C9BE15 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6FA8753054D7740E2F21A2D47B5C62C /* Build configuration list for PBXNativeTarget "ESTVLiveSdk4Phone" */;
+			buildConfigurationList = 30023B028EE6EBBE8C5FF4F3F9BFDBD8 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				BB0FE9AFDF786090816B192CF35D400E /* Headers */,
-				DBF8CF0D8A3BA12F93DF22446E1F1219 /* Sources */,
-				A59758D4056322C154FD62624F929462 /* Frameworks */,
-				6FAC37E1067DFDACB5AF09D5C66F7211 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2BD0E0AE5CB6A6121909841EDE2623A8 /* PBXTargetDependency */,
-			);
-			name = ESTVLiveSdk4Phone;
-			productName = ESTVLiveSdk4Phone;
-			productReference = 1774A58BFF8D3C65578CD6E40286FD7C /* ESTVLiveSdk4Phone.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C872DD99A69C557A7417CD7379EA61B7 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F977A6A7757F9B66C05BBE7B1B04EC14 /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				E9CC79F862B970EAEB66CFC99DDB8B24 /* Headers */,
-				1018618D33C74AE7ED921C93A2CCBA61 /* Sources */,
-				32831A3445B133AFECF96196F4DCC3DB /* Frameworks */,
-				9DE3362B299021848863D8EDC8393D52 /* Resources */,
+				370980ED43D8F219BB7E70ED6DBEB0B5 /* Headers */,
+				1489DF325BD858A439FA60452C506709 /* Sources */,
+				26BE64AC7F98A4AE146816D6BEAA763C /* Frameworks */,
+				848EF1CBC463A9D78D428DA581E560B7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -535,8 +546,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B18E96389F40E0E56E72C1A9AF3173CF /* ESTVLiveSdk4Phone */,
-				C872DD99A69C557A7417CD7379EA61B7 /* Masonry */,
+				2FFC761B96C1458E3B117535AFAF1855 /* ESTVLiveSdk4Phone */,
+				BF5DE04A0EAB68DA5B8ADEE163C9BE15 /* Masonry */,
 				9F66D621CA216B398CD46FF54226AD64 /* Pods-ESTVLiveSdk4Phone_Example */,
 				E2961C4E9B691FDE88D73C55797A499E /* Pods-ESTVLiveSdk4Phone_Tests */,
 			);
@@ -558,14 +569,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FAC37E1067DFDACB5AF09D5C66F7211 /* Resources */ = {
+		6E4D14FE0BDC795A1637735AF9746C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A10E2A46DA4500C5D667912816566A /* ESTVLiveSdkBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DE3362B299021848863D8EDC8393D52 /* Resources */ = {
+		848EF1CBC463A9D78D428DA581E560B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -583,21 +595,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1018618D33C74AE7ED921C93A2CCBA61 /* Sources */ = {
+		1489DF325BD858A439FA60452C506709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30AAFBAC8C9F6A9B2713DF1AB1D9FD9C /* MASCompositeConstraint.m in Sources */,
-				23248FB84ACF7B9392C8C72771E83F53 /* MASConstraint.m in Sources */,
-				E5DF265CC3BC55B447FF81477CEC3D16 /* MASConstraintMaker.m in Sources */,
-				25493F56ED15CF9CDD572DEAF358661B /* MASLayoutConstraint.m in Sources */,
-				2CC57A1DDC0CC05E9D97F16B338EB43D /* Masonry-dummy.m in Sources */,
-				FAB3A475CAD4BB5EAB1E2656F7A681F7 /* MASViewAttribute.m in Sources */,
-				8254FB785A07B1AD8B2FDDF2E2736447 /* MASViewConstraint.m in Sources */,
-				C7566DB8260320C9D499453187E8427D /* NSArray+MASAdditions.m in Sources */,
-				14A4614C6E2A0D5CCF3D6C4BCC1A8B87 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				17C75BB6571D2D523DAD51DD36764D24 /* View+MASAdditions.m in Sources */,
-				E70E578C53D416DEC5F01A7826879DD5 /* ViewController+MASAdditions.m in Sources */,
+				27257513B9CA31E1B10725AA7FC588EE /* MASCompositeConstraint.m in Sources */,
+				D038FD9427F270B48DF7BD56F6A2FAF7 /* MASConstraint.m in Sources */,
+				F52F175D8C1EFABF2070613E0D6E954B /* MASConstraintMaker.m in Sources */,
+				10C7EECC8B329A150627C4B99EABFFDD /* MASLayoutConstraint.m in Sources */,
+				80AF9A5B3FE9665955602209422284D8 /* Masonry-dummy.m in Sources */,
+				3B2A68EA7B37AFFB7C098D03F1C6215F /* MASViewAttribute.m in Sources */,
+				3F13E027F2C3F40713EB54D6D5D22DDF /* MASViewConstraint.m in Sources */,
+				6F4EAA9201CC773F2EC1D168BF643AF5 /* NSArray+MASAdditions.m in Sources */,
+				D6A876DD8D6716CF648B0AB189E090AA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				043C2B84CC7D49480F11E3F09843F8F7 /* View+MASAdditions.m in Sources */,
+				EAF8C2C97E23B235FD914250F5002B3F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE7E246AA4C48EBB3C8D55DC5E04DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEEB0D954A2B01D5C2D7A6EE059C9A /* ESTVLiveSdk4Phone-dummy.m in Sources */,
+				1C10BA84D06AAB735EE3E39D8B7F07C5 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,28 +630,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBF8CF0D8A3BA12F93DF22446E1F1219 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C07A975301A5713FC254EE402F8D72A /* ESTVLiveSdk4Phone-dummy.m in Sources */,
-				8F4C5FCC861816F27D3DF3A1E04730F2 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BD0E0AE5CB6A6121909841EDE2623A8 /* PBXTargetDependency */ = {
+		0AA9021FE64BB229F23BB9FC324629D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = C872DD99A69C557A7417CD7379EA61B7 /* Masonry */;
-			targetProxy = C00257C2E60197AB94C99929C7FA1C44 /* PBXContainerItemProxy */;
+			target = BF5DE04A0EAB68DA5B8ADEE163C9BE15 /* Masonry */;
+			targetProxy = BCF47C3289327FFDB8A1A35ED7FE6C39 /* PBXContainerItemProxy */;
 		};
 		BD37C525682652645FF7BF64B3CC66F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = C872DD99A69C557A7417CD7379EA61B7 /* Masonry */;
+			target = BF5DE04A0EAB68DA5B8ADEE163C9BE15 /* Masonry */;
 			targetProxy = 901459AAF930CA22178669E460BA3AA9 /* PBXContainerItemProxy */;
 		};
 		BFF239AFE85545EAAFD6516F58CD589F /* PBXTargetDependency */ = {
@@ -642,15 +654,15 @@
 		D2C6DB31149D0103353814FB709D97FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ESTVLiveSdk4Phone;
-			target = B18E96389F40E0E56E72C1A9AF3173CF /* ESTVLiveSdk4Phone */;
+			target = 2FFC761B96C1458E3B117535AFAF1855 /* ESTVLiveSdk4Phone */;
 			targetProxy = 4DA9CC6CF55D76E77365C19C4461647E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		018917B7F9F829EA53D823525B6795C5 /* Release */ = {
+		02BBBF95E4F74E91C8D8DE1BEC774CDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F8024A2D90755C0828D4F78A88153D /* ESTVLiveSdk4Phone.xcconfig */;
+			baseConfigurationReference = 7D3E436A0AE02F9701755192357A5F72 /* ESTVLiveSdk4Phone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -678,36 +690,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1BC57664FF595F18B7E72A88FC88555E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415F31504ACEDD9EF507AE617BFC852E /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		47F825A88138E3A6DCF40B855528D68D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -777,37 +759,6 @@
 			};
 			name = Release;
 		};
-		70B3FB42824F4D523960DD022551BD94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 415F31504ACEDD9EF507AE617BFC852E /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -864,6 +815,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2B5E59CA1F4F38A3A5E535B53A69FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415F31504ACEDD9EF507AE617BFC852E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -964,9 +946,9 @@
 			};
 			name = Debug;
 		};
-		EF2442B1AA4DB1FA57E89FDE48DDC150 /* Debug */ = {
+		F4E87149B47FBB68B70B8B2201A1020F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F8024A2D90755C0828D4F78A88153D /* ESTVLiveSdk4Phone.xcconfig */;
+			baseConfigurationReference = 7D3E436A0AE02F9701755192357A5F72 /* ESTVLiveSdk4Phone.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -985,6 +967,36 @@
 				MODULEMAP_FILE = "Target Support Files/ESTVLiveSdk4Phone/ESTVLiveSdk4Phone.modulemap";
 				PRODUCT_MODULE_NAME = ESTVLiveSdk4Phone;
 				PRODUCT_NAME = ESTVLiveSdk4Phone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F835266D08D5578A31973AF2F51161E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415F31504ACEDD9EF507AE617BFC852E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1039,6 +1051,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		30023B028EE6EBBE8C5FF4F3F9BFDBD8 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F835266D08D5578A31973AF2F51161E2 /* Debug */,
+				B2B5E59CA1F4F38A3A5E535B53A69FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DB19E33FCE529F45CDECBED1857DAE /* Build configuration list for PBXNativeTarget "ESTVLiveSdk4Phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E87149B47FBB68B70B8B2201A1020F /* Debug */,
+				02BBBF95E4F74E91C8D8DE1BEC774CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4F1A0E070B84F52C6C09279A7B0A144F /* Build configuration list for PBXNativeTarget "Pods-ESTVLiveSdk4Phone_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1053,24 +1083,6 @@
 			buildConfigurations = (
 				FA295EC14BC8E32E960F038A850ED5AC /* Debug */,
 				47F825A88138E3A6DCF40B855528D68D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F6FA8753054D7740E2F21A2D47B5C62C /* Build configuration list for PBXNativeTarget "ESTVLiveSdk4Phone" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EF2442B1AA4DB1FA57E89FDE48DDC150 /* Debug */,
-				018917B7F9F829EA53D823525B6795C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F977A6A7757F9B66C05BBE7B1B04EC14 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BC57664FF595F18B7E72A88FC88555E /* Debug */,
-				70B3FB42824F4D523960DD022551BD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
