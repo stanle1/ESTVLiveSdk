@@ -7,7 +7,7 @@
 //
 
 #import "ESTVViewController.h"
-
+//#import <ESTVLiveSDK/ESTVLiveSDK.h>
 @interface ESTVViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    ESTVBaseViewController* vc = [[ESTVBaseViewController alloc] init];
+//    [self.view addSubview:vc.view];
+//    vc.view.frame = self.view.frame;
 }
 
 - (void)didReceiveMemoryWarning

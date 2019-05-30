@@ -1,5 +1,5 @@
 PODS:
-  - ESTVLiveSdk4Phone (0.0.1):
+  - ESTVLiveSdk4Phone (0.0.2):
     - Masonry (~> 1.0.1)
   - Masonry (1.0.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ESTVLiveSdk4Phone: d2c59c05483a89a4bd85729ed8f150aa507c6391
+  ESTVLiveSdk4Phone: cf2b09adfe1d3660a272b9032f8e7a581e8094aa
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
 PODFILE CHECKSUM: 6cbc06b016ab89a7fd277bc759acd982f9b42e37

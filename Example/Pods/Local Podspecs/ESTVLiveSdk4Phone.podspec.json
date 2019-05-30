@@ -1,6 +1,6 @@
 {
   "name": "ESTVLiveSdk4Phone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of ESTVLiveSdk4Phone.",
   "description": "ESTVLiveSdk4Phone 测试项目",
   "homepage": "https://github.com/stanle1/ESTVLiveSdk4Phone",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/stanle1/ESTVLiveSdk4Phone.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
