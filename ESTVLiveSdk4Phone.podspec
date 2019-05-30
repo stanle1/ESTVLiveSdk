@@ -36,11 +36,15 @@ Pod::Spec.new do |s|
   # 自己的
   s.vendored_frameworks = 'ESTVLiveSdk4Phone/Frameworks/*.framework'
   
+  # 图片资源
+  s.resource = 'Resources/*.bundle'
+  
   # 系统
   s.frameworks = 'UIKit', 'MapKit'
   
   # 第三方库
   s.dependency 'Masonry', '~> 1.0.1'
+  
   
   # s.resource_bundles = {
   #   'ESTVLiveSdk4Phone' => ['ESTVLiveSdk4Phone/Assets/*.png']
