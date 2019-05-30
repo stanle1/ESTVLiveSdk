@@ -1,0 +1,6 @@
+framework module ESTVLiveSdk {
+  umbrella header "ESTVLiveSdk.h"
+
+  export *
+  module * { export * }
+}

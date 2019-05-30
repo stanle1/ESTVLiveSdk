@@ -1,0 +1,6 @@
+framework module ESTVLiveSdk4Phone {
+  umbrella header "ESTVLiveSdk4Phone-umbrella.h"
+
+  export *
+  module * { export * }
+}

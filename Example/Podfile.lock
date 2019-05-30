@@ -1,0 +1,23 @@
+PODS:
+  - ESTVLiveSdk4Phone (0.1.0):
+    - Masonry (~> 1.0.1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - ESTVLiveSdk4Phone (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  ESTVLiveSdk4Phone:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESTVLiveSdk4Phone: 18d4431a21b7ad1bf8b65f93481940bdf5fea1e4
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 6cbc06b016ab89a7fd277bc759acd982f9b42e37
+
+COCOAPODS: 1.6.0.beta.1
