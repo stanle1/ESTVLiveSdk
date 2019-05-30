@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'ESTVLiveSdk4Phone/Frameworks/*.framework'
   
   # 图片资源
-  s.resource = 'ESTVLiveSdk4Phone/Resources/ESTVLiveSdkBundle.bundle'
+  s.resource = 'Resources/ESTVLiveSdkBundle.bundle'
   
   # 系统
   s.frameworks = 'UIKit', 'MapKit'
