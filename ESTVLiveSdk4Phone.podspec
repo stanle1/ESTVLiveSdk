@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     ESTVLiveSdk4Phone 测试项目
                        DESC
 
-  s.homepage         = 'https://github.com/raychow/ESTVLiveSdk4Phone'
+  s.homepage         = 'https://github.com/stanle1/ESTVLiveSdk4Phone'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'raychow' => 'zhouqirui@itouchtv.cn' }
-  s.source           = { :git => 'https://github.com/raychow/ESTVLiveSdk4Phone.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/stanle1/ESTVLiveSdk4Phone.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
